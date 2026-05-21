@@ -1,0 +1,13 @@
+# Don't commit the actual build — upload as a release asset instead
+*.zip
+*.rar
+*.exe
+*.dll
+*.pak
+*.dat
+*.bin
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
