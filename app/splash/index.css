@@ -1,0 +1,50 @@
+@font-face {
+  font-family: UniSans;
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/uni-sans-heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: Whitney;
+  font-style: light;
+  font-weight: 300;
+  src: url("../fonts/whitney-light.woff") format('woff');
+}
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  cursor: default;
+}
+body,
+html {
+  -webkit-app-region: drag;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+.splash {
+  height: 300px;
+  width: 300px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-clip: padding-box;
+}
+.splash .loading-text {
+  position: fixed;
+  bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #4f545c;
+  width: 300px;
+  font-family: Whitney;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  z-index: 2;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+}
+.splash .loading-text.in {
+  opacity: 1;
+}

@@ -1,12 +1,8 @@
-# Don't commit the actual build — upload as a release asset instead
+node_modules/
+
+# Build archives — uploaded as release assets, not committed
 *.zip
 *.rar
-*.exe
-*.dll
-*.pak
-*.dat
-*.bin
-*.log
 
 # OS
 .DS_Store

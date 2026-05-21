@@ -1,0 +1,11 @@
+{
+  "name": "discord",
+  "description": "Discord Client for Desktop",
+  "version": "0.0.274",
+  "releaseChannel": "legacy2015",
+  "main": "app/index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^0.13.0"
+  }
+}
