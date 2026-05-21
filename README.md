@@ -31,8 +31,3 @@ ViaCord is a self-hosted recreation of the Discord experience as it was in mid-2
 
 
 the source in the /app folder is the decompiled app.asar from the vanilla client
-
-## Notes
-
-- This is an old Electron/Chromium build (2015 era) — it won't receive security updates
-- Voice chat requires UDP port connectivity to `app.viacord.org`
