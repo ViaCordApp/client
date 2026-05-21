@@ -36,4 +36,3 @@ the source in the /app folder is the decompiled app.asar from the vanilla client
 
 - This is an old Electron/Chromium build (2015 era) — it won't receive security updates
 - Voice chat requires UDP port connectivity to `app.viacord.org`
-- If the client doesn't open, try right-clicking `Discord.exe` → Run as administrator
